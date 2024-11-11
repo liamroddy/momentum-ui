@@ -103,9 +103,6 @@ describe("DatePicker Component", () => {
   });
 
   describe("should handle range modification scenarios", () => {
-    const startDate = DateTime.fromObject({ month: 11, day: 15 });
-    const endDate = startDate.plus({ days: 5 });
-
     const date1 =  DateTime.fromObject({ month: 11, day: 15 });
     const date2 = date1.plus({ days: 10 });
     const date3 = date2.plus({ days: 10 });
